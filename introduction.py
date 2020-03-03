@@ -30,4 +30,4 @@ data = 'hello python'
 print('ram' in data)
 print('hello' in data)
 
-
+print ('she is pretty')

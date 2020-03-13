@@ -67,18 +67,18 @@
 # # # #      print(f'you have failed in population and your marks is {population}')
 
 
-# # # # sum = 3
-# # # # call = int(input('Enter call duration:'))
-# # # # if call<=5:
-# # # #     print(f'callprice = {sum}')
-# # # # elif call > 5 or call < 11:
-# # # #     print(f'callprice = {sum *2}')
-# # # # elif call > 10 or call < 21:
-# # # #     print(f'callprice = {sum*3}')
-# # # # elif call > 20 or call < 46:
-# # # #     print(f'callprice =  {20}')
-# # # # elif call > 45 or call < 101:
-# # # #     print(f'callprice = {10}')
+sum == 3
+call = int(input('Enter call duration:'))
+if call<=5:
+    print('callprice == 3')
+elif call > 5 or call <=10:
+    print('callprice == 6')
+elif call > 10 or call <=20:
+    print('callprice == 9')
+elif call > 20 or call <= 45:
+    print('callprice ==  20')
+elif call > 45 or call <= 100:
+    print('callprice == 10')
 
 # # # #loop statements:
 
@@ -117,10 +117,10 @@
 #     print(x)
 #     x+=1
 
-x = 0
-while x < 10:
+# x = 0
+# while x < 10:
  
-    x+=1
-    if x == 5:
-        continue
-    print(x)
+#     x+=1
+#     if x == 5:
+#         continue
+#     print(x)

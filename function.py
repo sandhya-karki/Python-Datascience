@@ -145,3 +145,6 @@
 import calculator 
 print(calculator.add(20,10))
 print(calculator.sub(40,30))
+
+
+#git ignore, OS module,  system module study

@@ -42,8 +42,12 @@
 # print(data)
 # print(dir(data))
 
-
-
+# print(os.path)
+# print(sys.versition)
+# print(dir(sys))
+# print(sys.getfielsystemencoding())
+# print(os.path.abspath('function'))
+# print(os.path.join(__file__))
 # data.insert(1,'binita')
 # print(data)
 # data[1] = 'hari'
@@ -51,3 +55,21 @@
 # print(data)
 
 #study file handling
+#study virtual environment
+#study os module
+
+users = {
+    'name' : 'admin',
+    'address' : 'Kathmandu',
+    'contact': {
+        'phone': '03847758',
+        'mobile' : '987465766'
+    }
+}
+
+# print(users.get('contact'))
+# print(users.keys())
+# print(dir(users))
+
+# print(users['name'])
+# print(users['contact']['mobile'])
